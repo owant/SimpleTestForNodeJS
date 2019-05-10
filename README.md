@@ -22,7 +22,6 @@ class SettingConfigTest {
 }
 
 main = () => {
-  console.log(this);
   console.log(__filename);
   let t = new SettingConfigTest();
   let props=t.__proto__;
